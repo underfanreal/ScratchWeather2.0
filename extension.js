@@ -47,7 +47,7 @@
 
     // Make an AJAX call to the Open Weather Maps API
     $.ajax({
-      url: 'http://api.openweathermap.org/data/2.5/weather',
+      url: 'https://api.openweathermap.org/data/2.5/weather',
       data: {q: location, units: 'imperial', appid: APPID},
       dataType: 'jsonp',
       success: function(weatherData) {
